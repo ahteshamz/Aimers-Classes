@@ -22,7 +22,7 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight mb-8">
-            Empowering Students for <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Academic Excellence</span>
+            Empowering Students for <span className="text-transparent bg-clip-text bg--to-r from-primary to-secondary">Academic Excellence</span>
           </h1>
           
           <p className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">

@@ -98,7 +98,7 @@ const InquiryForm = () => {
                     required
                     value={formData.studentName}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all  text-black"
                     placeholder="Umme Kulsum"
                   />
                 </div>
@@ -110,7 +110,7 @@ const InquiryForm = () => {
                     name="parentName"
                     value={formData.parentName}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all  text-black"
                     placeholder="Mohammad Ali"
                   />
                 </div>
@@ -126,8 +126,8 @@ const InquiryForm = () => {
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
-                    placeholder="+1 (555) 000-0000"
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all  text-black"
+                    placeholder="+91 84070 51XXX"
                   />
                 </div>
                 <div>
@@ -152,7 +152,7 @@ const InquiryForm = () => {
                   required
                   value={formData.grade}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all appearance-none bg-white"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all appearance-none  text-black"
                 >
                   <option value="" disabled>Select Grade</option>
                   <option value="class-8">Class 8</option>
@@ -172,7 +172,7 @@ const InquiryForm = () => {
                   rows={4}
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none  text-black"
                   placeholder="How can we help you?"
                 />
               </div>

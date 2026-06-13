@@ -43,7 +43,7 @@ const AdmissionForm = () => {
       <div className="max-w-3xl mx-auto">
         <div className="bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden">
           
-          <div className="bg-primary px-8 py-10 text-white text-center">
+          <div className="bg-primary px-8 py-10 text-black text-center">
             <h2 className="text-3xl font-bold mb-2">Complete Your Admission</h2>
             <p className="text-primary-100 opacity-90">Please provide the required details to finalize your enrollment at Aimers Classes.</p>
           </div>
@@ -77,7 +77,7 @@ const AdmissionForm = () => {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-slate-700 mb-1.5 flex items-center gap-2">
+                    <label className="text-sm font-semibold text-slate-700 mb-1.5 flex items-center gap-2">
                       <Calendar className="w-4 h-4 text-slate-400" /> Date of Birth *
                     </label>
                     <input
@@ -113,7 +113,7 @@ const AdmissionForm = () => {
                   </div>
                   
                   <div>
-                    <label className="block text-sm font-semibold text-slate-700 mb-1.5 flex items-center gap-2">
+                    <label className="text-sm font-semibold text-slate-700 mb-1.5 flex items-center gap-2">
                       <Phone className="w-4 h-4 text-slate-400" /> Emergency Contact Number *
                     </label>
                     <input
